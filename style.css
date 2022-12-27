@@ -1,0 +1,102 @@
+* {
+    font-family: "Inter", sans-serif;
+    line-height: 150%;
+    font-size: 32px;
+    font-weight: 170;
+}
+
+body {
+    background-color: rgba(228, 217, 217, 0.164);
+}
+
+main {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+} 
+
+.banner {
+    height: 6rem;
+    width: 10rem;
+}
+
+.input-text {
+    border-radius: 15px;
+    border-width: 2px;
+    display: flex;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.output-message {
+    background-image: url("img/not_found.png");
+    background-position: 18px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border-radius: 15px;
+    border-width: 2px;
+    margin-top: 20px;
+    margin-left: 90px;
+    position: relative;
+    text-align: center;
+}
+
+.vector {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.informacion {
+    display: flex;
+    position: relative;
+
+}
+
+.formato-texto {
+    font-family: cursive;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.encrypt {
+    background-color: rgb(67, 67, 230);
+    border-color: black;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin-left: 130px;
+}
+
+.decrypt {
+    background-color: green;
+    border-color: black;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+.copy {
+    background-color: #FFF;
+    border-color: black;
+    border-radius: 15px;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 195px;
+    position: relative;  
+}
